@@ -1,7 +1,7 @@
-package br.com.runes.diofilmes.repositories
+package br.com.runes.diofilmes.data.repositories
 
 import br.com.runes.diofilmes.core.RemoteException
-import br.com.runes.diofilmes.services.TheMovieDbService
+import br.com.runes.diofilmes.data.services.TheMovieDbService
 import kotlinx.coroutines.flow.flow
 import retrofit2.HttpException
 
@@ -9,7 +9,7 @@ class MovieRepositoryImpl(private val service: TheMovieDbService) : MovieReposit
 
     override suspend fun listMovies() = flow {
         try {
-            val movieList = service.listAllMovies()
+            val movieList = service.listAllMovies().movies
             emit(movieList)
         } catch (ex: HttpException) {
             throw RemoteException(ex.message ?: "Não foi possivel fazer a busca no momento!")

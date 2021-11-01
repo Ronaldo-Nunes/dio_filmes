@@ -1,6 +1,6 @@
-package br.com.runes.diofilmes.repositories
+package br.com.runes.diofilmes.data.repositories
 
-import br.com.runes.diofilmes.model.Movie
+import br.com.runes.diofilmes.data.model.Movie
 import kotlinx.coroutines.flow.Flow
 
 interface MovieRepository {

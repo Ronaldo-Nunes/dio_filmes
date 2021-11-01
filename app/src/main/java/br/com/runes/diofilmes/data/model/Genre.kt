@@ -1,4 +1,4 @@
-package br.com.runes.diofilmes.model
+package br.com.runes.diofilmes.data.model
 
 data class Genre (
     val id: Long,

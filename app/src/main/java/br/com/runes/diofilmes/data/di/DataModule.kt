@@ -1,10 +1,10 @@
 package br.com.runes.diofilmes.data.di
 
 import android.util.Log
-import br.com.runes.diofilmes.repositories.MovieRepository
-import br.com.runes.diofilmes.repositories.MovieRepositoryImpl
-import br.com.runes.diofilmes.services.Resources.BASE_URL
-import br.com.runes.diofilmes.services.TheMovieDbService
+import br.com.runes.diofilmes.data.repositories.MovieRepository
+import br.com.runes.diofilmes.data.repositories.MovieRepositoryImpl
+import br.com.runes.diofilmes.data.services.ApiPath.BASE_URL
+import br.com.runes.diofilmes.data.services.TheMovieDbService
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

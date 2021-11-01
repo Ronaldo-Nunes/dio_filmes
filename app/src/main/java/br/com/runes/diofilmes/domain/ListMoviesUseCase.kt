@@ -2,8 +2,8 @@ package br.com.runes.diofilmes.domain
 
 import br.com.runes.diofilmes.core.UseCase
 import br.com.runes.diofilmes.core.UseCase.None
-import br.com.runes.diofilmes.model.Movie
-import br.com.runes.diofilmes.repositories.MovieRepository
+import br.com.runes.diofilmes.data.model.Movie
+import br.com.runes.diofilmes.data.repositories.MovieRepository
 import kotlinx.coroutines.flow.Flow
 
 class ListMoviesUseCase(

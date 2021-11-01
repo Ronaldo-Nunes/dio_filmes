@@ -3,6 +3,7 @@ package br.com.runes.diofilmes
 import android.app.Application
 import br.com.runes.diofilmes.data.di.DataModule
 import br.com.runes.diofilmes.domain.di.DomainModule
+import br.com.runes.diofilmes.presentation.di.PresentationModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
@@ -16,6 +17,6 @@ class MovieApp: Application() {
 
         DataModule.load()
         DomainModule.load()
-//        PresentationModule.load()
+        PresentationModule.load()
     }
 }

@@ -1,4 +1,4 @@
-package br.com.runes.diofilmes.model
+package br.com.runes.diofilmes.data.model
 
 import com.google.gson.annotations.SerializedName
 

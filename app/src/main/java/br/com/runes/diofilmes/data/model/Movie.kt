@@ -1,9 +1,7 @@
-package br.com.runes.diofilmes.model
+package br.com.runes.diofilmes.data.model
 
-import android.os.Parcelable
 import com.google.gson.JsonObject
 import com.google.gson.annotations.SerializedName
-import kotlinx.parcelize.Parcelize
 
 data class Movie (
     val adult: Boolean,
