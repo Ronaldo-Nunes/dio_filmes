@@ -1,94 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:tools="http://schemas.android.com/tools"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <data>
 
+        <variable
+            name="movie"
+            type="br.com.runes.diofilmes.data.model.Movie" />
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/img_movie"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            app:layout_constraintDimensionRatio="16:9"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/tv_title"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="@+id/img_movie"
-            app:layout_constraintStart_toStartOf="@+id/img_movie"
-            app:layout_constraintTop_toBottomOf="@+id/img_movie"
-            tools:text="@sample/movies.json/data/title" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_movie"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintDimensionRatio="16:9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:setWideImage="@{@string/base_wide_image_url(movie.backdropPath)}" />
 
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip_date"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            app:chipBackgroundColor="@color/brown"
-            android:textSize="16sp"
-            app:chipIcon="@drawable/ic_date_range_24"
-            tools:text="@sample/movies.json/data/release_date"
-            app:layout_constraintEnd_toEndOf="@+id/tv_title"
-            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="@{movie.title}"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/img_movie"
+                app:layout_constraintStart_toStartOf="@+id/img_movie"
+                app:layout_constraintTop_toBottomOf="@+id/img_movie"
+                tools:text="@sample/movies.json/data/title" />
 
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip_vote_average"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            app:chipBackgroundColor="@null"
-            android:textSize="16sp"
-            app:chipIconTint="@color/red"
-            app:chipIcon="@drawable/ic_favorite_24"
-            tools:text="@sample/movies.json/data/vote_average"
-            app:layout_constraintStart_toStartOf="@id/tv_title"
-            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                app:chipBackgroundColor="@color/brown"
+                app:chipIcon="@drawable/ic_date_range_24"
+                app:layout_constraintEnd_toEndOf="@+id/tv_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title"
+                app:setDate="@{movie.releaseDate}"
+                tools:text="@sample/movies.json/data/release_date" />
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/tv_overview"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/img_movie"
-            app:layout_constraintStart_toStartOf="@+id/img_movie"
-            app:layout_constraintTop_toBottomOf="@+id/chip_date"
-            tools:text="@sample/movies.json/data/overview" />
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_vote_average"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@{String.valueOf(movie.voteAverage)}"
+                android:textSize="16sp"
+                app:chipBackgroundColor="@null"
+                app:chipIcon="@drawable/ic_favorite_24"
+                app:chipIconTint="@color/red"
+                app:layout_constraintStart_toStartOf="@id/tv_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title"
+                tools:text="@sample/movies.json/data/vote_average" />
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fab_back"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:clickable="true"
-            android:contentDescription="@string/str_back"
-            android:focusable="true"
-            app:backgroundTint="@color/black_60_percent_opacity"
-            app:fabSize="mini"
-            app:layout_constraintStart_toStartOf="@+id/img_movie"
-            app:layout_constraintTop_toTopOf="@+id/img_movie"
-            app:srcCompat="@drawable/ic_arrow_back_24"
-            app:tint="@color/white" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_overview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@{movie.overview}"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/img_movie"
+                app:layout_constraintStart_toStartOf="@+id/img_movie"
+                app:layout_constraintTop_toBottomOf="@+id/chip_date"
+                tools:text="@sample/movies.json/data/overview" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:contentDescription="@string/str_back"
+                android:focusable="true"
+                app:backgroundTint="@color/black_60_percent_opacity"
+                app:fabSize="mini"
+                app:layout_constraintStart_toStartOf="@+id/img_movie"
+                app:layout_constraintTop_toTopOf="@+id/img_movie"
+                app:srcCompat="@drawable/ic_arrow_back_24"
+                app:tint="@color/white" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 </layout>

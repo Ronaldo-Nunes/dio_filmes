@@ -31,7 +31,9 @@ class MovieListAdapter(private val clickListener: MovieClickListener) :
         fun bind(item: Movie, clickListener: MovieClickListener) {
             val imageUrl = "$BASE_PORTRAIT_IMAGE_URL${item.posterPath}"
             Log.d("ADAPTER", "ImageUrl: $imageUrl")
-            binding.movieImage.load(imageUrl)
+            binding.movieImage.load(imageUrl) {
+                crossfade(true)
+            }
             binding.root.setOnClickListener {
                 clickListener.itemSelected(item)
             }
