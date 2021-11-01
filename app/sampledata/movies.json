@@ -1,0 +1,321 @@
+{
+  "data": [
+    {
+      "adult": false,
+      "backdrop_path": "/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
+      "genre_ids": [
+        878,
+        28
+      ],
+      "id": 580489,
+      "original_language": "en",
+      "original_title": "Venom: Let There Be Carnage",
+      "overview": "O relacionamento entre Eddie e Venom (Tom Hardy) está evoluindo. Buscando a melhor forma de lidar com a inevitável simbiose, esse dois lados descobrem como viver juntos e, de alguma forma, se tornarem melhores juntos do que separados.",
+      "popularity": 6178.157,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/kz7xJLowO4x0BpcB1IJb9uIXgrq.jpg",
+      "release_date": "2021-09-30",
+      "title": "Venom: Tempo de Carnificina",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 1318
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eeijXm3553xvuFbkPFkDG6CLCbQ.jpg",
+      "genre_ids": [
+        28,
+        12,
+        18,
+        878
+      ],
+      "id": 438631,
+      "original_language": "en",
+      "original_title": "Dune",
+      "overview": "Em um futuro distante, planetas são comandados por casas nobres que fazem parte de um império feudal intergalático. Paul Atreides é um jovem cuja família toma o controle do planeta deserto Arrakis, também conhecido como Duna. A única fonte da especiaria Melange, a substância mais importante do cosmos, Arrakis se mostra ser um planeta nem um pouco fácil de governar.",
+      "popularity": 5774.184,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/s9E9W77HS8zEQvsrpz5aEUTKnvD.jpg",
+      "release_date": "2021-09-15",
+      "title": "Duna",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2971
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+      "genre_ids": [
+        35,
+        28,
+        12,
+        878
+      ],
+      "id": 550988,
+      "original_language": "en",
+      "original_title": "Free Guy",
+      "overview": "Um caixa de banco preso a uma entediante rotina tem sua vida virada de cabeça para baixo quando ele descobre que é personagem em um brutalmente realista vídeo game de mundo aberto. Agora ele precisa aceitar sua realidade e lidar com o fato de que é o único que pode salvar o mundo.",
+      "popularity": 2505.007,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/jXlGeLOg2RKHmV9CinVaIB4ijKU.jpg",
+      "release_date": "2021-08-11",
+      "title": "Free Guy: Assumindo o Controle",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 3237
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/v1g47X1SAXTNgtvdkOW6wWuDyMY.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 610253,
+      "original_language": "en",
+      "original_title": "Halloween Kills",
+      "overview": "Minutos depois de Laurie Strode, sua filha Karen e sua neta Allyson deixarem o assassino mascarado Michael Myers enjaulado e queimando no porão de Laurie, Laurie é levada às pressas para o hospital com ferimentos graves, acreditando que ela finalmente matou seu torturador ao longo da vida. Mas quando Michael consegue se livrar da armadilha de Laurie, seu ritual de banho de sangue recomeça. Enquanto Laurie luta contra sua dor e se prepara para se defender dele, ela inspira todos em Haddonfield a se levantarem contra seu monstro imparável. As mulheres Strode se juntam a um grupo de outras sobreviventes da primeira violência de Michael, que decidem fazer justiça com as próprias mãos, formando uma multidão de vigilantes que começa a caçar Michael de uma vez por todas.",
+      "popularity": 2280.624,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/4NphuHmnuROLqCjAEr5LS7Aage6.jpg",
+      "release_date": "2021-10-14",
+      "title": "Halloween Kills: O Terror Continua",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 877
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+      "genre_ids": [
+        28,
+        12
+      ],
+      "id": 568620,
+      "original_language": "en",
+      "original_title": "Snake Eyes: G.I. Joe Origins",
+      "overview": "Após salvar a vida do herdeiro de Arashikage, Storm Shadow, Snake Eyes é aceito nesse antigo clã japonês se junta à batalha contra o grupo terrorista Cobra. Desafiando os limites, Snake Eyes será o melhor dos guerreiros ninjas. Porém, são revelados segredos do passado, testando sua honra e lealdade - mesmo que isso signifique perder tudo pelo que lutou.",
+      "popularity": 1996.449,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/6IxMW3939dOCjzenwzkWEjgICVq.jpg",
+      "release_date": "2021-07-22",
+      "title": "G.I. Joe Origens: Snake Eyes",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 749
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eBGKU0ZLJmxtVtzESTB1mfllX1J.jpg",
+      "genre_ids": [
+        80,
+        28,
+        53
+      ],
+      "id": 630004,
+      "original_language": "en",
+      "original_title": "The Vault",
+      "overview": "Thom Laybrick é um jovem e brilhante engenheiro que dificilmente se atrai pelos projetos em que é chamado a participar. Mas ele diz sim quando o caçador de tesouros Walter o convida para se unir a um grupo de contraventores que pretendem realizar um assalto ao Banco da Espanha. Calculado em cada detalhe, o roubo se torna uma incessante luta contra o tempo para que consigam se dar bem em meio à Copa do Mundo em que a Espanha disputa a final.",
+      "popularity": 1859.624,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/AhRSv4npEaE8ZvuJh4CmQpsXDZg.jpg",
+      "release_date": "2021-03-03",
+      "title": "Assalto ao Banco da Espanha",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 363
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4O40vu2KOgnFfxvrZgzBG6havQ.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "id": 645788,
+      "original_language": "en",
+      "original_title": "The Protégé",
+      "overview": "Em The Protégé, Anna (Maggie Q) é uma matadora de aluguel extremamente habilidosa treinada pelo lendário assassino Moody (Samuel L. Jackson), que a ensinou tudo que sabe e era a única figura paterna que ela já teve. Quando Moody é brutalmente assassinado por inimigos, Anna jura se vingar e acaba caindo em um jogo de gato e rato com um maníaco homícida (Michael Keaton) cuja obsessão por ela que vai além de suas habilidades como matadora.",
+      "popularity": 1571.187,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/niDrDAUYO8627hwEhE7LV5Z1qXn.jpg",
+      "release_date": "2021-08-19",
+      "title": "A Profissional",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 298
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wfrfxivLOBtGMC98tIr2LSOeKSe.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10751
+      ],
+      "id": 639721,
+      "original_language": "en",
+      "original_title": "The Addams Family 2",
+      "overview": "Os Addams se envolvem em aventuras mais malucas e se envolvem em confrontos hilariantes com todos os tipos de personagens desavisados.",
+      "popularity": 1769.988,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/ujWOI68vGkfLOgEDmcrjIS6il7B.jpg",
+      "release_date": "2021-10-01",
+      "title": "A Família Addams 2: Pé na Estrada",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 463
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+      "genre_ids": [
+        878,
+        28
+      ],
+      "id": 335983,
+      "original_language": "en",
+      "original_title": "Venom",
+      "overview": "O jornalista Eddie Brock desenvolve força e poder sobre-humanos quando seu corpo se funde com o alienígena Venom. Dominado pela raiva, Venom tenta controlar as novas e perigosas habilidades de Eddie",
+      "popularity": 1659.551,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/apZJb9kdHXhPu6oDTeztDSd41zw.jpg",
+      "release_date": "2018-09-28",
+      "title": "Venom",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 12014
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sjeEHzxdDrtMTHQwARi4UJ4NXN7.jpg",
+      "genre_ids": [
+        878,
+        53,
+        9648
+      ],
+      "id": 675319,
+      "original_language": "en",
+      "original_title": "Zone 414",
+      "overview": "Zona 414 se passa em um futuro próximo em uma colônia de robôs humanóides de última geração. Quando a filha de seu criador desaparece, ele contrata o investigador particular David Carmichael para trazê-la para casa. David se junta a Jane, uma IA altamente avançada e autoconsciente, para rastrear a filha desaparecida.",
+      "popularity": 1188.531,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/wIm5S6Blkb0qDMTGVu80VWSrQV1.jpg",
+      "release_date": "2021-09-03",
+      "title": "Zone 414",
+      "video": false,
+      "vote_average": 5.9,
+      "vote_count": 74
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7h5WAPAcUzOWpp2jrwHBB48790j.jpg",
+      "genre_ids": [
+        16,
+        28
+      ],
+      "id": 843241,
+      "original_language": "ja",
+      "original_title": "劇場版 七つの大罪 光に呪われし者たち",
+      "overview": "Meliodas e seus amigos entram em ação novamente quando a nova era de paz é ameaçada por uma poderosa aliança mágica que pode acabar com tudo.",
+      "popularity": 1160.78,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/gtiNyP9BoQmPzjeDhvofUtUxpJV.jpg",
+      "release_date": "2021-07-02",
+      "title": "The Seven Deadly Sins: Cursed by Light",
+      "video": false,
+      "vote_average": 8.4,
+      "vote_count": 199
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/owraiceOKtSOa3t8sp3wA9K2Ox6.jpg",
+      "genre_ids": [
+        16,
+        28,
+        12,
+        878
+      ],
+      "id": 703771,
+      "original_language": "en",
+      "original_title": "Deathstroke: Knights & Dragons - The Movie",
+      "overview": "O mercenário e mestre assassino Slade Wilson vive uma vida dupla, como o matador de aluguel conhecido como Exterminador e como um dedicado pai de família. Quando esses dois mundos colidem, por ação de um grupo terrorista, Slade precisa lutar para salvar quem ama. Com sua alma despedaçada e seu filho mais novo em cativeiro, o Exterminador deve pagar por seus pecados do passado para poder vencer as batalhas do futuro.",
+      "popularity": 1104.824,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/ykhI6BEEUG39Mrg47V1YpIrk5vy.jpg",
+      "release_date": "2020-08-04",
+      "title": "Exterminador: Cavaleiros e Dragões",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 287
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4vCh8R4yd6ybOmbxRAPOzaXmLTV.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "id": 744275,
+      "original_language": "en",
+      "original_title": "After We Fell",
+      "overview": "Embora a história de amor entre Tessa Young e Hardin Scott tenha passado por muitas complicações, desta vez o problema é mais complexo do que nunca. Agora que Tessa tomou uma das decisões mais importantes de sua vida, tudo mudou completamente. Os segredos que vêm à tona sobre suas famílias colocam em risco seu relacionamento e seu futuro juntos. Embora a jovem saiba que Hardin a ama, os dois estão cercados de ciúme, ódio e perdão. Será que o amor entre os dois será o suficiente para manter seu relacionamento?",
+      "popularity": 1035.59,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/stYOdg6kFi9jl9aGLeh9vLSPiFU.jpg",
+      "release_date": "2021-09-01",
+      "title": "After: Depois do Desencontro",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 519
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5UmoOvOmnCHiJj3TAKVn7uNAKAW.jpg",
+      "genre_ids": [
+        28,
+        35,
+        12
+      ],
+      "id": 772436,
+      "original_language": "es",
+      "original_title": "Matando Cabos 2: La Máscara del Máscara",
+      "overview": "Diante da morte inesperada de seu pai distante, El Máscara,  e do subsequente roubo de sua preciosa máscara, Rubén, Mascarita, se defrontará com seu passado. Junto com seu invencível guarda-costas Tony \"O Canibal\" e, um aliado inesperado, ele terá apenas um dia para recuperá-la e se reconciliar com a memória de seu pai.",
+      "popularity": 1037.9,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/jxdKa1467pktAILLbfw6kZyQlbW.jpg",
+      "release_date": "2021-10-01",
+      "title": "Matando Cabos 2",
+      "video": false,
+      "vote_average": 8.1,
+      "vote_count": 51
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/dIibeeq4QMay5bTJ2vjr72IFFRo.jpg",
+      "genre_ids": [
+        14,
+        12,
+        35
+      ],
+      "id": 589754,
+      "original_language": "ru",
+      "original_title": "Последний богатырь: Корень зла",
+      "overview": "",
+      "popularity": 1050.825,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/14l5EFPdqZ8Pzpp3yXO3BnTnpQh.jpg",
+      "release_date": "2021-01-01",
+      "title": "Последний богатырь: Корень зла",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 61
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cinER0ESG0eJ49kXlExM0MEWGxW.jpg",
+      "genre_ids": [
+        28,
+        12,
+        14
+      ],
+      "id": 566525,
+      "original_language": "en",
+      "original_title": "Shang-Chi and the Legend of the Ten Rings",
+      "overview": "Shang-Chi precisa confrontar o passado que pensou ter deixado para trás. Ao mesmo tempo, ele é envolvido em uma teia de mistérios da organização conhecida como Dez Anéis.",
+      "popularity": 1093.288,
+      "poster_path": "https://image.tmdb.org/t/p/w220_and_h330_face/ArrOBeio968bUuUOtEpKa1teIh4.jpg",
+      "release_date": "2021-09-01",
+      "title": "Shang-Chi e a Lenda dos Dez Anéis",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 1358
+    }
+  ]
+}
